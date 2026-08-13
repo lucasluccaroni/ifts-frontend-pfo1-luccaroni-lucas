@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de Lucas Luccaroni — Desarrollador Full Stack e AI-Driven Developer especializado en desarrollo agéntico, aplicaciones web y soluciones con IA aplicada.">
+  <meta name="keywords" content="Lucas Luccaroni, Desarrollador Full Stack, Frontend, Backend, HTML, CSS, JavaScript, React, C#, .NET, Supabase, RAG, IA Aplicada, Portafolio">
+  <meta name="author" content="Lucas Luccaroni">
+  <title>Lucas Luccaroni | Desarrollador Full Stack</title>
+
+  <!-- Google Fonts: EB Garamond (Headings) y Source Serif 4 (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+
+  <!-- Hoja de Estilos Principal -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+    COMENTARIO EXPLICATIVO 1 (Rúbrica - Propone):
+    Estructura de Navegación:
+    El elemento <nav> encapsula la barra de navegación principal de la landing page.
+    Utiliza enlaces ancla (#hero, #habilidades, #proyectos, #contacto) para permitir 
+    el desplazamiento directo entre secciones dentro de la misma página sin recargas.
+    Incluye un enlace directo al perfil de GitHub para dar cumplimiento visible 
+    a las restricciones obligatorias de la consigna.
+  ========================================================================= -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#hero" class="logo" aria-label="Ir al inicio de la página">
+        <span class="logo-text">Lucas Luccaroni</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+          <li class="nav-item">
+            <a href="https://github.com/lucasluccaroni" target="_blank" rel="noopener noreferrer" class="nav-link nav-github-link">
+              GitHub ↗
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+      SECCIÓN HERO / PRESENTACIÓN
+    ========================================================================= -->
+    <section id="hero" class="section hero-section" aria-labelledby="hero-title">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="hero-badge">AI-Driven Developer</span>
+          <h1 id="hero-title" class="hero-title">Lucas Luccaroni</h1>
+          <p class="hero-headline">Desarrollador Full Stack</p>
+
+          <p class="hero-description">
+            AI-Driven Developer con foco en sistemas tradicionales e inteligencia artificial aplicada. 
+            Experiencia en desarrollo agéntico y co-creación Humano-IA. Desarrollo soluciones a medida, 
+            adaptando stack y arquitectura a lo que cada proyecto necesita.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+            <a href="https://github.com/lucasluccaroni" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              GitHub Profile
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img src="assets/img/LUCCARONI LUCAS FOTO PERFIL.jpg" alt="Fotografía de perfil de Lucas Luccaroni, Desarrollador Full Stack" class="hero-profile-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+      SECCIÓN HABILIDADES / TECH STACK
+    ========================================================================= -->
+    <section id="habilidades" class="section habilidades-section" aria-labelledby="habilidades-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="habilidades-title" class="section-title">Habilidades y Tecnologías</h2>
+          <p class="section-subtitle">Herramientas y lenguajes que utilizo para construir soluciones eficientes.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Categoría Frontend -->
+          <article class="skill-card">
+            <h3 class="skill-category-title">Frontend</h3>
+            <ul class="skill-tags">
+              <li class="tag">HTML5</li>
+              <li class="tag">CSS3</li>
+              <li class="tag">JavaScript (ES6+)</li>
+              <li class="tag">React</li>
+            </ul>
+          </article>
+
+          <!-- Categoría Backend -->
+          <article class="skill-card">
+            <h3 class="skill-category-title">Backend</h3>
+            <ul class="skill-tags">
+              <li class="tag">Node.js</li>
+              <li class="tag">Express</li>
+              <li class="tag">C#</li>
+              <li class="tag">.NET</li>
+              <li class="tag">REST APIs</li>
+              <li class="tag">MVC</li>
+            </ul>
+          </article>
+
+          <!-- Categoría Bases de Datos -->
+          <article class="skill-card">
+            <h3 class="skill-category-title">Bases de Datos</h3>
+            <ul class="skill-tags">
+              <li class="tag">MySQL</li>
+              <li class="tag">Firebase</li>
+              <li class="tag">MongoDB</li>
+              <li class="tag">Supabase</li>
+            </ul>
+          </article>
+
+          <!-- Categoría IA Aplicada (Destacada) -->
+          <article class="skill-card skill-card-ai">
+            <h3 class="skill-category-title">IA Aplicada y Desarrollo Agéntico</h3>
+            <ul class="skill-tags">
+              <li class="tag tag-ai">Ollama</li>
+              <li class="tag tag-ai">Groq</li>
+              <li class="tag tag-ai">OpenRouter</li>
+              <li class="tag tag-ai">FAISS</li>
+              <li class="tag tag-ai">RAG Pipelines</li>
+              <li class="tag tag-ai">IA-Local</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+      COMENTARIO EXPLICATIVO 2 (Rúbrica - Propone):
+      Sección Personal a Elección:
+      La consigna del proyecto requiere incluir una sección de libre elección.
+      Se ha seleccionado la sección "Proyectos" como decisión deliberada de diseño:
+      demostrar el trabajo técnico real a través de aplicaciones desplegadas y 
+      sistemas desarrollados es la mejor carta de presentación para un desarrollador.
+    ========================================================================= -->
+    <section id="proyectos" class="section proyectos-section" aria-labelledby="proyectos-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="proyectos-title" class="section-title">Proyectos Destacados</h2>
+          <p class="section-subtitle">Selección de sistemas desarrollados que reflejan mi experiencia práctica.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Proyecto 1: Estrella (Fila Completa) -->
+          <article class="project-card project-card-featured">
+            <div class="project-image-container">
+              <div class="project-image-placeholder">
+                <span class="placeholder-tag">SAO Bar - Sistema Web + IA</span>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-type-badge">Proyecto Estrella • Full Stack + IA</span>
+              <h3 class="project-title">SAO Bar — Sistema de Gestión Web con Asistente IA</h3>
+              <p class="project-description">
+                Sistema de gestión integral para gastronomía con asistente de inteligencia artificial incorporado. 
+                Incluye módulos de ABM de productos, comandas, caja diaria, cierres, reportes e historial. 
+                Integra un asistente IA con arquitectura RAG y Tool Use (LangGraph, Ollama, FAISS y Nomic Embed) 
+                para consultas avanzadas de operaciones y costos.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge">Next.js</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">Tailwind CSS</span>
+                <span class="tech-badge">Supabase (PostgreSQL)</span>
+                <span class="tech-badge">RAG / IA</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/lucasluccaroni" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  Ver Repositorio
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2: Parben Home (Media Fila) -->
+          <article class="project-card">
+            <div class="project-image-container">
+              <div class="project-image-placeholder">
+                <span class="placeholder-tag">Parben Home</span>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-type-badge">Sitio Web Freelance</span>
+              <h3 class="project-title">Parben Home — Diseño de Interiores</h3>
+              <p class="project-description">
+                Sitio web comercial responsive para marca de diseño de interiores. 
+                Desarrollo en React con Vite para máxima velocidad de carga, e integración con Firebase 
+                para gestión de base de datos y sistema automático de mailing de consultas.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">Vite</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Firebase</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/lucasluccaroni" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  Ver Repositorio
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3: Gimnasio (Media Fila) -->
+          <article class="project-card">
+            <div class="project-image-container">
+              <div class="project-image-placeholder">
+                <span class="placeholder-tag">Sistema Gimnasio</span>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-type-badge">Aplicación de Escritorio</span>
+              <h3 class="project-title">Sistema de Gestión para Gimnasio</h3>
+              <p class="project-description">
+                Software de escritorio orientado a la administración integral de un centro deportivo. 
+                Desarrollado en C# .NET Framework con arquitectura en capas y persistencia en MySQL. 
+                Permite la gestión de socios, cuotas, abonados y control de disciplinas.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge">C#</span>
+                <span class="tech-badge">.NET Framework</span>
+                <span class="tech-badge">MySQL</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/lucasluccaroni" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                  Ver Repositorio
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+      COMENTARIO EXPLICATIVO 3 (Rúbrica - Propone):
+      Asociación Label-Input en Formulario:
+      Para cumplir estrictamente con los estándares de accesibilidad (WCAG) y la consigna,
+      cada campo del formulario de contacto (<input> y <textarea>) posee un elemento <label>
+      asociado explícitamente mediante el atributo 'for', que coincide exactamente con el 'id'
+      del elemento de entrada correspondiente.
+    ========================================================================= -->
+    <section id="contacto" class="section contacto-section" aria-labelledby="contacto-title">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <h2 id="contacto-title" class="section-title">Contacto</h2>
+          <p class="section-subtitle">¿Tenés una propuesta o proyecto en mente? Escribime un mensaje.</p>
+        </div>
+
+        <form class="contact-form" aria-label="Formulario de contacto profesional" action="#" method="POST">
+          <div class="form-group">
+            <label for="nombre_contacto" class="form-label">Nombre y Apellido</label>
+            <input type="text" id="nombre_contacto" name="nombre" class="form-input" placeholder="Tu nombre completo" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email_contacto" class="form-label">Correo Electrónico</label>
+            <input type="email" id="email_contacto" name="email" class="form-input" placeholder="tuemail@ejemplo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje_contacto" class="form-label">Mensaje</label>
+            <textarea id="mensaje_contacto" name="mensaje" class="form-input form-textarea" rows="5" placeholder="Escribí tu mensaje aquí..." required></textarea>
+          </div>
+
+          <div class="form-group form-action">
+            <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+          </div>
+        </form>
+
+        <div class="contact-direct-info">
+          <p class="direct-email-text">
+            O si preferís correo directo: 
+            <a href="mailto:luccaroni@gmail.com" class="contact-email-link">luccaroni@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+    COMENTARIO EXPLICATIVO 4 (Rúbrica - Propone):
+    Redundancia Intencional en Footer:
+    Se incluye nuevamente el enlace visible al perfil de GitHub en el <footer>.
+    Esta redundancia es intencional para garantizar que el usuario pueda acceder 
+    al repositorio obligatorio desde cualquier punto al finalizar la navegación 
+    de la landing page, además de cumplir con la usabilidad estándar.
+  ========================================================================= -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <p class="footer-author">Lucas Luccaroni</p>
+        <p class="footer-role">Desarrollador Full Stack — PFO1 2026</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/lucasluccaroni" target="_blank" rel="noopener noreferrer" class="footer-link">
+          GitHub Profile
+        </a>
+        <a href="https://www.linkedin.com/in/lucas-jose-luccaroni" target="_blank" rel="noopener noreferrer" class="footer-link">
+          LinkedIn Profile
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>© 2026 Lucas Luccaroni. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
