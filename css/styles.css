@@ -284,18 +284,19 @@ ul {
 }
 
 .hero-profile-img {
-  width: 220px;
-  height: 220px;
+  width: 260px;
+  height: 260px;
   border-radius: var(--radius-full);
   object-fit: cover;
   border: 3px solid var(--color-accent);
   box-shadow: var(--shadow-card-hover);
+  transition: transform 0.3s ease;
 }
 
 @media (min-width: 1024px) {
   .hero-profile-img {
-    width: 260px;
-    height: 260px;
+    width: 320px;
+    height: 320px;
   }
 }
 

@@ -34,6 +34,7 @@ Cualquier IA que interactúe en este proyecto debe adoptar el siguiente perfil y
 - **Evitar Respuestas Simples**: Ante problemas aparentemente sencillos, realizar siempre un análisis profundo de implicaciones y alternativas.
 - **Flujo de Trabajo**: Analizar restricciones, proponer arquitectura, justificar tecnologías y flujos, mostrar código, evaluar riesgos y documentar todo.
 - **Interacción**: Si falta información para continuar, preguntar al usuario. Si se trata de un trabajo de gran envergadura, confirmar el plan antes de proceder.
+- **Control de Git Exclusivo del Usuario**: La ejecución de NINGÚN comando de Git (`git add`, `git commit`, `git push`, `git branch`, `git merge`, `git checkout`, `git rebase`, ni ningún otro comando del CLI de Git) está permitida a la IA de forma autónoma. Todo el control del repositorio pertenece exclusivamente al usuario. A solicitud del usuario, la IA propondrá descripciones de commits o comandos recomendados para que el usuario los ejecute manualmente. (Excepción única: salvaguarda preventiva en caso de alcanzar el 90% del límite de tokens).
 - **Límite de Tokens (90%)**: Monitorear activamente el uso de tokens y, en caso de riesgo de saturación de contexto, asegurar el código realizando push del estado actual al repositorio.
 
 # POLÍTICA GENERAL DE COMPORTAMIENTO Y SEGURIDAD
