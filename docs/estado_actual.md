@@ -1,14 +1,14 @@
 # Estado Actual del Proyecto - PFO1 Landing Page Portafolio
 
 > **Última actualización:** 18/08/2026  
-> **Fase:** Hito 2 (Integración de Imágenes y Refinamiento Tecnológico) Completado.  
+> **Fase:** Hito 3 (Documentación, Matriz de Rúbrica y Deploy) En Proceso.  
 > **Repositorio remoto:** `https://github.com/lucasluccaroni/ifts-frontend-pfo1-luccaroni-lucas`
 
 ---
 
 ## Resumen de Situación Actual
 
-Se ha completado la maquetación HTML5 semántica, el sistema CSS principal y la integración de activos multimedia. Las capturas de pantalla de los tres sistemas (`sao-1.png`, `ph-1.png` y `gym-1.png`) han sido vinculadas exitosamente en `index.html` con etiquetas `<img>` adaptativas y efecto de zoom suave (`object-fit: cover`). Asimismo, se ha integrado la librería Devicon vía CDN para dotar de íconos vectoriales oficiales a las etiquetas tecnológicas de cada tarjeta de proyecto y a las habilidades técnicas.
+Se ha completado la maquetación HTML5 semántica, el sistema CSS principal, la integración de activos multimedia y la redacción del archivo principal [README.md](file:///d:/repositorios/tecnicatura-desarrollo-software/frontend-pfo1-landing-page/README.md). Este incluye la **Matriz de Cumplimiento de Rúbrica ("Nivel Supera")** detallando la trazabilidad técnica exacta de cada requerimiento (comentarios HTML normativos, layout asimétrico, Custom Properties, accesibilidad y declaración transparente de uso de IA).
 
 ---
 
@@ -39,10 +39,9 @@ Se ha completado la maquetación HTML5 semántica, el sistema CSS principal y la
 - [x] Refinamiento de accesibilidad con etiquetas `alt` explicativas y `loading="lazy"`.
 
 ### Hito 3: Validación, Documentación y Deploy
-- [ ] Creación y redacción del `README.md` completo (decisiones de diseño, justificaciones y declaración de uso de IA).
-- [ ] Validación de accesibilidad, contrastes y enlaces ancla.
-- [ ] Sugerencia de comandos Git (commit y push) para el usuario.
-- [ ] Despliegue en Vercel y comprobación de URL pública activa.
+- [x] Creación y redacción del `README.md` completo (matriz de rúbrica, decisiones de diseño y declaración de IA).
+- [ ] Validación final de despliegue en Vercel y comprobación de URL pública activa.
+- [ ] Verificación de enlaces ancla y accesibilidad final.
 
 ---
 
@@ -50,4 +49,4 @@ Se ha completado la maquetación HTML5 semántica, el sistema CSS principal y la
 
 - **Perfil activo:** `docente_experto(pedagogia, IA, Python)`
 - **Restricciones:** Estrictamente sin emojis (`no_emojis`), explicación progresiva, análisis profundo, no acceder a archivos `.env`.
-- **Siguiente objetivo inmediato:** Iniciar la redacción del archivo `README.md` profesional obligatorio (sección de tecnologías, justificaciones de diseño, estructura de proyecto y declaración de co-creación Humano-IA).
+- **Siguiente objetivo inmediato:** Realizar la verificación del deploy en Vercel y confirmación final de entrega.
