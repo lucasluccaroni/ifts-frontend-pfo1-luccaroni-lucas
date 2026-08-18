@@ -1,14 +1,14 @@
 # Estado Actual del Proyecto - PFO1 Landing Page Portafolio
 
-> **Última actualización:** 13/08/2026  
-> **Fase:** Hito 1 (Estructura HTML Semántica & Sistema CSS) Completado.  
+> **Última actualización:** 18/08/2026  
+> **Fase:** Hito 2 (Integración de Imágenes y Refinamiento Tecnológico) Completado.  
 > **Repositorio remoto:** `https://github.com/lucasluccaroni/ifts-frontend-pfo1-luccaroni-lucas`
 
 ---
 
 ## Resumen de Situación Actual
 
-Se ha construido la maquetación HTML5 semántica completa en `index.html` y el sistema de diseño CSS en `css/styles.css`. El proyecto incluye la paleta cromática Blue Steel + Cream cálido, la escala tipográfica con `clamp()` (EB Garamond + Source Serif 4), layouts fluidos en Flexbox y Grid, los 4 comentarios explicativos requeridos por la consigna/rúbrica y enlace funcional y visible a GitHub.
+Se ha completado la maquetación HTML5 semántica, el sistema CSS principal y la integración de activos multimedia. Las capturas de pantalla de los tres sistemas (`sao-1.png`, `ph-1.png` y `gym-1.png`) han sido vinculadas exitosamente en `index.html` con etiquetas `<img>` adaptativas y efecto de zoom suave (`object-fit: cover`). Asimismo, se ha integrado la librería Devicon vía CDN para dotar de íconos vectoriales oficiales a las etiquetas tecnológicas de cada tarjeta de proyecto y a las habilidades técnicas.
 
 ---
 
@@ -32,15 +32,16 @@ Se ha construido la maquetación HTML5 semántica completa en `index.html` y el 
 - [x] Creación de `css/styles.css` con Custom Properties (paleta Blue Steel + Cream) y tipografías Google Fonts serif.
 - [x] Layouts adaptativos en Flexbox (`header`, `hero`, `contacto`, `footer`) y Grid (`habilidades`, `proyectos` asimétrico).
 
-### Hito 2: Optimización de Imágenes, Animaciones y Ajustes Finos
-- [ ] Incorporación de capturas de proyectos en `assets/img/` y actualización de placeholders.
-- [ ] Optimización de imágenes a formato `.webp`.
-- [ ] Refinamiento de transiciones hover y accesibilidad con `@media (prefers-reduced-motion: reduce)`.
+### Hito 2: Optimización de Imágenes, Animaciones e Íconos Tecnológicos
+- [x] Carga de capturas de proyectos realizada en `assets/img/` y vinculadas en `index.html`.
+- [x] Integración de íconos oficiales SVG / Devicon para el stack de cada proyecto y grilla de habilidades (incluyendo TypeScript y Tailwind CSS en Frontend).
+- [x] Ajuste visual de imágenes adaptativas con `object-fit: cover` y micro-interacciones hover.
+- [x] Refinamiento de accesibilidad con etiquetas `alt` explicativas y `loading="lazy"`.
 
 ### Hito 3: Validación, Documentación y Deploy
 - [ ] Creación y redacción del `README.md` completo (decisiones de diseño, justificaciones y declaración de uso de IA).
-- [ ] Validación de accesibilidad y enlaces.
-- [ ] Commit y Push a GitHub.
+- [ ] Validación de accesibilidad, contrastes y enlaces ancla.
+- [ ] Sugerencia de comandos Git (commit y push) para el usuario.
 - [ ] Despliegue en Vercel y comprobación de URL pública activa.
 
 ---
@@ -49,4 +50,4 @@ Se ha construido la maquetación HTML5 semántica completa en `index.html` y el 
 
 - **Perfil activo:** `docente_experto(pedagogia, IA, Python)`
 - **Restricciones:** Estrictamente sin emojis (`no_emojis`), explicación progresiva, análisis profundo, no acceder a archivos `.env`.
-- **Siguiente objetivo inmediato:** Realizar commit con las adiciones de `index.html` y `css/styles.css`, e iniciar el armado del documento `README.md` obligatorio.
+- **Siguiente objetivo inmediato:** Iniciar la redacción del archivo `README.md` profesional obligatorio (sección de tecnologías, justificaciones de diseño, estructura de proyecto y declaración de co-creación Humano-IA).
