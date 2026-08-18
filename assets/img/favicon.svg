@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fondo Cream Cálido con esquinas suavemente redondeadas -->
+  <rect width="64" height="64" rx="14" fill="#F0E8D0"/>
+  <!-- Borde decorativo fino en Blue Steel -->
+  <rect x="2.5" y="2.5" width="59" height="59" rx="12.5" fill="none" stroke="#5B7F8E" stroke-width="1.5" opacity="0.6"/>
+  <!-- Iniciales LL en Tipografía Serif Azul Oscuro -->
+  <text x="32" y="43" font-family="'EB Garamond', Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#2C3E4A" text-anchor="middle" letter-spacing="-2px">LL</text>
+</svg>

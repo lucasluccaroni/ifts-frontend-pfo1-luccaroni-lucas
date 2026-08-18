@@ -38,6 +38,10 @@ Se ha completado la maquetación HTML5 semántica, el sistema CSS principal, la 
 - [x] Ajuste visual de imágenes adaptativas con `object-fit: cover` y micro-interacciones hover.
 - [x] Corrección de desbordamiento horizontal en dispositivos móviles (`overflow-x: hidden`) y centrado perfecto del contenedor.
 - [x] Implementación de menú hamburguesa responsivo en CSS puro (Checkbox Hack sin JavaScript) para pantallas < 768px.
+- [x] Actualización de botones de proyectos a sitios en vivo (SAO Bar y Parben Home en Vercel) y remoción del botón en el proyecto de escritorio (Gimnasio).
+- [x] Rediseño de links en el footer integrando íconos de GitHub y LinkedIn transparentes que se iluminan a su color oficial al pasar el cursor.
+- [x] Agregado de botón estilizado "Volver al inicio" (`↑ Volver al inicio`) posicionado al pie de la sección de contacto para un retorno rápido a la cabecera.
+- [x] Limpieza del texto del rol en el footer para mostrar únicamente "Desarrollador Full Stack" (removiendo la etiqueta interna PFO1 2026).
 - [x] Refinamiento de accesibilidad con etiquetas `alt` explicativas y `loading="lazy"`.
 
 ### Hito 3: Validación, Documentación y Deploy
