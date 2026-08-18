@@ -36,6 +36,8 @@ Se ha completado la maquetación HTML5 semántica, el sistema CSS principal, la 
 - [x] Carga de capturas de proyectos realizada en `assets/img/` y vinculadas en `index.html`.
 - [x] Integración de íconos oficiales SVG / Devicon para el stack de cada proyecto y grilla de habilidades (incluyendo TypeScript y Tailwind CSS en Frontend).
 - [x] Ajuste visual de imágenes adaptativas con `object-fit: cover` y micro-interacciones hover.
+- [x] Corrección de desbordamiento horizontal en dispositivos móviles (`overflow-x: hidden`) y centrado perfecto del contenedor.
+- [x] Implementación de menú hamburguesa responsivo en CSS puro (Checkbox Hack sin JavaScript) para pantallas < 768px.
 - [x] Refinamiento de accesibilidad con etiquetas `alt` explicativas y `loading="lazy"`.
 
 ### Hito 3: Validación, Documentación y Deploy

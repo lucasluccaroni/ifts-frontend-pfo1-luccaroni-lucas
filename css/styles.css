@@ -77,6 +77,8 @@
 html {
   scroll-behavior: smooth;
   font-size: 100%;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
@@ -87,6 +89,8 @@ body {
   background-color: var(--color-bg-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 img {
@@ -151,13 +155,13 @@ ul {
 }
 
 /* =========================================================================
-   HEADER Y NAVEGACIÓN (FLEXBOX)
+   HEADER Y NAVEGACIÓN RESPONSIVA (FLEXBOX + CSS PURE HAMBURGER)
    ========================================================================= */
 .header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgba(240, 232, 208, 0.92);
+  background-color: rgba(240, 232, 208, 0.95);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--color-border);
   padding-top: var(--space-sm);
@@ -168,6 +172,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo-text {
@@ -178,34 +183,188 @@ ul {
   letter-spacing: -0.02em;
 }
 
-.nav-list {
+/* Casilla de verificación para toggle de menú (oculta) */
+.nav-toggle {
+  display: none;
+}
+
+/* Botón de Menú Hamburguesa */
+.nav-toggle-btn {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
-}
-
-.nav-link {
-  font-size: var(--text-small);
-  font-weight: 600;
-  color: var(--color-text-secondary);
-  padding: 0.25rem 0.5rem;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
   border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-card);
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  z-index: 102;
 }
 
-.nav-link:hover {
-  color: var(--color-accent);
+.nav-toggle-btn:hover {
+  border-color: var(--color-accent);
+  background-color: var(--color-bg-secondary);
 }
 
-.nav-github-link {
-  color: var(--color-accent);
-  border: 1px solid var(--color-accent);
-  padding: 0.25rem 0.75rem;
-  border-radius: var(--radius-sm);
+.hamburger {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-text-primary);
+  transition: background-color 0.3s ease;
 }
 
-.nav-github-link:hover {
-  background-color: var(--color-accent);
-  color: var(--color-bg-primary);
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-text-primary);
+  transition: transform 0.3s ease, top 0.3s ease;
+}
+
+.hamburger::before {
+  top: -6px;
+}
+
+.hamburger::after {
+  top: 6px;
+}
+
+/* Estado transformado de la hamburguesa a X cuando se activa */
+.nav-toggle:checked ~ .nav-toggle-btn .hamburger {
+  background-color: transparent;
+}
+
+.nav-toggle:checked ~ .nav-toggle-btn .hamburger::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.nav-toggle:checked ~ .nav-toggle-btn .hamburger::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+/* Navegación para Mobile (< 768px) */
+@media (max-width: 767px) {
+  .nav {
+    position: absolute;
+    top: calc(100% + var(--space-sm));
+    left: 0;
+    right: 0;
+    background-color: var(--color-bg-card);
+    border-bottom: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border);
+    box-shadow: 0 10px 25px rgba(44, 62, 74, 0.12);
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.35s ease, opacity 0.3s ease, visibility 0.3s ease;
+    padding: 0 var(--space-md);
+  }
+
+  .nav-toggle:checked ~ .nav {
+    max-height: 380px;
+    opacity: 1;
+    visibility: visible;
+    padding: var(--space-md);
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--space-xs);
+    text-align: center;
+  }
+
+  .nav-link {
+    display: block;
+    font-size: var(--text-body);
+    font-weight: 600;
+    color: var(--color-text-primary);
+    padding: 0.65rem 1rem;
+    border-radius: var(--radius-sm);
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    background-color: var(--color-accent-light);
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+
+  .nav-github-link {
+    color: var(--color-bg-primary);
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+
+  .nav-github-link:hover {
+    background-color: var(--color-accent-hover);
+    color: var(--color-bg-primary);
+  }
+}
+
+/* Navegación para Desktop (>= 768px) */
+@media (min-width: 768px) {
+  .nav-toggle-btn {
+    display: none !important;
+  }
+
+  .nav {
+    position: static;
+    max-height: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    padding: 0 !important;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  .nav-link {
+    display: inline-block;
+    font-size: var(--text-small);
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    padding: 0.25rem 0.5rem;
+    background: transparent;
+    border: none;
+  }
+
+  .nav-link:hover {
+    color: var(--color-accent);
+    background: transparent;
+  }
+
+  .nav-github-link {
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    padding: 0.25rem 0.75rem;
+    background: transparent;
+  }
+
+  .nav-github-link:hover {
+    background-color: var(--color-accent);
+    color: var(--color-bg-primary);
+  }
 }
 
 /* =========================================================================
