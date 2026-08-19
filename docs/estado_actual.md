@@ -53,7 +53,7 @@ Asimismo, se incluye el archivo [README.md](file:///d:/repositorios/tecnicatura-
 - [x] Inclusión de alerta visual `[!IMPORTANT]` en la Sección 2 de `README.md` destacando la lectura indispensable de la carpeta `docs/`.
 - [x] Incorporación del sello de autoría de Lucas Luccaroni en el encabezado de `AGENTS.md`.
 - [x] Validación final de despliegue en Vercel y comprobación de URL pública activa (`https://lucasluccaroni-portfolio.vercel.app/`).
-- [x] Verificación de enlaces ancla y accesibilidad final. 
+- [x] Verificación de enlaces ancla y accesibilidad final.
 
 ---
 

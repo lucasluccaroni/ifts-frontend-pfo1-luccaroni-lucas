@@ -379,7 +379,7 @@ pfo1-portfolio/
 - **Periodo:** Abril 2026 - Julio 2026
 - **Stack:** Next.js, TypeScript, Tailwind CSS, Supabase (PostgreSQL)
 - **Modulos:** ABM de productos, Comandas, Caja del dia, Cierre de caja, Historial y reportes, Calculadora de costos, Niveles de usuarios
-- **IA:** Asistente IA incorporado con RAG + Tool Use (LangGraph, Ollama, FAISS, Nomic Embed)
+- **IA:** Asistente IA incorporado con RAG + Tool Use (Ollama, FAISS, Nomic Embed)
 - **Descripcion para la card:** Sistema de gestion integral para un bar con asistente de inteligencia artificial incorporado. ABM de productos, comandas, caja, reportes y calculadora de costos. Implementacion de asistente IA con pipeline RAG y Tool Use.
 - **Link:** https://sao-ciap.vercel.app/
 - **Captura:** Hecho
