@@ -81,7 +81,7 @@ La consigna pide: nombre/apellido, presentacion, habilidades, contacto, y una **
 - **Parrafo de presentacion:**
   > AI-Driven Developer con foco en sistemas tradicionales e inteligencia artificial aplicada. Experiencia en desarrollo agéntico y co-creación Humano-IA. Desarrollo soluciones a medida, adaptando stack y arquitectura a lo que cada proyecto necesita.
   
-  *(Nota: este texto es una version editada para el hero. El contenido tecnico detallado — SQL, NoSQL, BaaS, REST APIs, MVC, RAG, FAISS, modelos cuantizados — se distribuye entre la seccion de Habilidades y las descripciones de proyectos donde se aplicaron.)*
+  *(Nota: este texto es una version editada para el hero. El contenido tecnico detallado — SQL, NoSQL, BaaS, REST APIs, MVC, RAG, Vectorización, modelos cuantizados — se distribuye entre la seccion de Habilidades y las descripciones de proyectos donde se aplicaron.)*
 - **CTA principal:** Link a seccion de proyectos ("Ver proyectos")
 - **CTA secundario:** Link a GitHub ("GitHub")
 - **Enlace visible a GitHub:** https://github.com/lucasluccaroni (requisito obligatorio de la consigna)
@@ -91,7 +91,7 @@ La consigna pide: nombre/apellido, presentacion, habilidades, contacto, y una **
   - **Frontend:** HTML, CSS, JavaScript, React
   - **Backend:** Node.js, Express, C#, .NET, REST APIs, MVC
   - **Bases de datos:** MySQL, Firebase, MongoDB, Supabase
-  - **IA aplicada:** Ollama, Groq, Openrouter, FAISS, RAG Pipelines, IA-Local
+  - **IA aplicada:** Ollama, Groq, Openrouter, Vectorización, RAG Pipelines, IA-Local
 - Iconos en **grayscale por defecto**, transicion a **color original en hover**
 - Sin barras de porcentaje (decision estetica: son arbitrarias y poco informativas)
 - El bloque de IA aplicada tiene tratamiento visual diferenciado: borde en accent, tags con fondo accent sutil
@@ -379,7 +379,7 @@ pfo1-portfolio/
 - **Periodo:** Abril 2026 - Julio 2026
 - **Stack:** Next.js, TypeScript, Tailwind CSS, Supabase (PostgreSQL)
 - **Modulos:** ABM de productos, Comandas, Caja del dia, Cierre de caja, Historial y reportes, Calculadora de costos, Niveles de usuarios
-- **IA:** Asistente IA incorporado con RAG + Tool Use (Ollama, FAISS, Nomic Embed)
+- **IA:** Asistente IA incorporado con RAG + Tool Use (Ollama, Vectorización, Nomic Embed)
 - **Descripcion para la card:** Sistema de gestion integral para un bar con asistente de inteligencia artificial incorporado. ABM de productos, comandas, caja, reportes y calculadora de costos. Implementacion de asistente IA con pipeline RAG y Tool Use.
 - **Link:** https://sao-ciap.vercel.app/
 - **Captura:** Hecho
