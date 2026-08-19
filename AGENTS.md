@@ -1,5 +1,7 @@
 # Reglas de Proyecto - Sistema General de Desarrollo
 
+**Elaborado y desarrollado por Lucas Luccaroni**
+
 ## Metodología de Control de Avance Incremental
 1. **Actualización Frecuente**: Cada vez que se complete un paso, tarea, hito o se realice un cambio significativo en el código (por ejemplo, definir una tabla de base de datos, implementar un endpoint o crear una pantalla), el agente DEBE actualizar de manera incremental el archivo de estado del proyecto (por defecto: `docs/estado_actual.md` o `estado_actual.md` dentro de la raíz del proyecto).
 2. **Estructura del Archivo**: Mantener actualizado el estado de las tareas (usando `[ ]` para pendientes, `[/]` para en proceso, y `[x]` para completadas), el resumen de la situación actual y las instrucciones detalladas de relevo para la siguiente IA.

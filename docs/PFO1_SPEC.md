@@ -14,6 +14,10 @@
 
 Proyecto Formativo Obligatorio 1 (PFO1) de la materia Desarrollo de Sistemas Web — Front End, 2do cuatrimestre 2026. Consiste en una landing page de portafolio personal construida con **HTML y CSS puros** (sin frameworks, sin JavaScript obligatorio).
 
+**Datos de entrega:**
+- **URL de Vercel (landing desplegada):** https://lucasluccaroni-portfolio.vercel.app/
+- **Repositorio GitHub:** https://github.com/lucasluccaroni/ifts-frontend-pfo1-luccaroni-lucas
+
 ### 1.2 Restricciones duras
 
 - Solo HTML + CSS. No se requiere JavaScript.
@@ -37,8 +41,8 @@ Proyecto Formativo Obligatorio 1 (PFO1) de la materia Desarrollo de Sistemas Web
 
 - **Herramientas:** Claude Opus 4.6 + Sonnet 5 (Anthropic) para analisis, arquitectura, documentacion y diseno de mockups; Google Antigravity 2.0 (Gemini 3.6 Flash, high) para desarrollo asistido; ambas herramientas usadas tambien para documentacion final.
 - **Plan:** Claude Pro ($20 USD/mes), configuracion de esfuerzo alto. Antigravity $5 USD.
-- **Experiencia previa:** 3 anios estudiando programacion. Experiencia en HTML/CSS puro, React, JavaScript, C#, MySQL, Firebase, MongoDB. Conocimiento en constante evolucion dentro de una tecnicatura en desarrollo de software. Uso habitual de herramientas de IA generativa para desarrollo asistido y co-creacion.
-- **Que revise y adapte:** [SE COMPLETARA al finalizar el desarrollo — documentar decisiones propias, correcciones al codigo generado, y criterio aplicado].
+- **Experiencia previa:** 3 anios estudiando programacion. Experiencia en HTML/CSS puro, React, JavaScript, TypeScript, TailwindCSS, C#, MySQL, Firebase, MongoDB. Experiencia practica en IA agentica, pipelines RAG + Tool Use para asistentes de IA integrados en aplicaciones, IA local con infraestructura de inferencia on-premise, e integracion con proveedores de IA. Conocimiento en constante evolucion dentro de una tecnicatura en desarrollo de software. Uso habitual de herramientas de IA generativa para desarrollo asistido y co-creacion.
+- **Que revise y adapte:** Detallado en el README.md del repositorio.
 
 ---
 
@@ -342,23 +346,17 @@ pfo1-portfolio/
 │   └── styles.css
 ├── assets/
 │   ├── img/
+│   │   ├── favicon.svg
+│   │   ├── perfil-lucas.webp
 │   │   ├── proyecto-bar-ia.webp
 │   │   ├── proyecto-muebleria.webp
-│   │   ├── proyecto-gimnasio.webp
-│   │   └── tech-icons/
-│   │       ├── html.svg
-│   │       ├── css.svg
-│   │       ├── javascript.svg
-│   │       ├── react.svg
-│   │       ├── csharp.svg
-│   │       ├── dotnet.svg
-│   │       ├── mysql.svg
-│   │       ├── firebase.svg
-│   │       └── mongodb.svg
-│   └── fonts/                    (si se descargan localmente en vez de CDN)
+│   │   └── proyecto-gimnasio.webp
+│   └── wireframes/              (mockups de Figma usados como referencia para el desarrollo)
 ├── README.md
 └── .gitignore
 ```
+
+**Nota:** Los iconos de tecnologias (habilidades y badges de stack en proyectos) se traen via CDN (Devicon o similar), no como SVG locales. No requieren carpeta propia en `assets/`.
 
 ---
 
@@ -422,6 +420,7 @@ pfo1-portfolio/
 - [x] **Capturas de pantalla** de los 3 proyectos — hecho
 - [x] **Foto de perfil** — hecho
 - [x] **Diseno en Figma** — Scripts 1, 2, 3 y 4 completados
+- [x] **URL de Vercel de la landing**: https://lucasluccaroni-portfolio.vercel.app/ (confirmada)
 
 ---
 

@@ -15,6 +15,10 @@ Landing page de portafolio profesional desarrollada con **HTML5 semántico y CSS
 
 ## 2. Documentos Complementarios de Análisis y Metodología
 
+> [!IMPORTANT]
+> **Lectura Indispensable para la Evaluación del Proyecto:**  
+> La comprensión cabal del análisis, las decisiones de arquitectura y la metodología de desarrollo agéntico no se agota únicamente en el código fuente o en este resumen ejecutivo del `README.md`. Es **estrictamente menester** examinar los documentos complementarios almacenados en el directorio `docs/` para ponderar el trasfondo analítico, la fundamentación del sistema de diseño y la trazabilidad completa del proyecto.
+
 Dentro de la carpeta `docs/` se destacan dos archivos fundamentales que respaldan el proceso metodológico y arquitectónico del proyecto:
 
 * **[PFO1_SPEC.md](file:///d:/repositorios/tecnicatura-desarrollo-software/frontend-pfo1-landing-page/docs/PFO1_SPEC.md):** Documento maestro de especificación técnica resultante de la **Fase 1 (Análisis y Documentación Arquitectónica)**. Registra la investigación previa, la justificación cromática, el diseño del sistema de tipografía editorial, la definición de contenido por sección y el mapeo conceptual inicial.
@@ -90,5 +94,11 @@ frontend-pfo1-landing-page/
 │   ├── PFO1_SPEC.md            # Documento maestro de especificación técnica
 │   ├── estado_actual.md        # Bitácora incremental de desarrollo y relevo
 │   └── pfo1-consigna-2026.pdf  # Consigna oficial de la materia
-└── README.md                   # Documentación principal del proyecto
 ```
+
+---
+
+## 8. Revisión / Adaptación de mi Criterio
+
+En todas las etapas que constituyen la premisa, el analisis, la documentacion, el desarrollo y la puesta a punto de un desarrollo de software intervengo directa y activamente junto con la herramienta de IA que esté utilizando en ese momento. Es la clave de la colaboración humano-IA Co-Work. Me desenvuelvo en una metodología de pensamiento colaborativo donde la IA se encarga del razonamiento, ya que sin duda es mil veces mejor que yo, y yo me encargo de la imaginación, la creatividad, la visión macro del proyecto, el marco, los límites y las reglas del flujo de la información, aporto mi criterio residual humano para evaluar los resultados, proponer y buscar alternativas y ajustar las devoluciones de la IA para que se adapten a lo que yo quiero, a lo que yo necesito. Ejemplos de esto son documentación viva compartida entre modelos, reglas de comportamiento, límites y reportes, planes de ruta, iteraciones en las respuestas de la ia corrigiendo bugs en la pagina, contenedores mal ajustados, fallos en el apartado responsive. La intervención que tengo en este proyecto es absoluta, ya que todo lo que está escrito lo hizo la IA, pero cómo lo escribió, donde lo escribió, cómo se organizó, que colores se usaron, donde estan ubicadas las cosas en la página, la arquitectura de carpetas, las fuentes elegidas, etc, fue mi intervención y mi criterio aplicado.
+

@@ -49,6 +49,9 @@ Asimismo, se incluye el archivo [README.md](file:///d:/repositorios/tecnicatura-
 
 ### Hito 3: Validación, Documentación y Deploy
 - [x] Creación y redacción del `README.md` completo (matriz de rúbrica, decisiones de diseño y declaración de IA).
+- [x] Inclusión de la sección 8 en `README.md` ("Revisión / Adaptación de mi Criterio") detallando la visión de trabajo colaborativo Humano-IA.
+- [x] Inclusión de alerta visual `[!IMPORTANT]` en la Sección 2 de `README.md` destacando la lectura indispensable de la carpeta `docs/`.
+- [x] Incorporación del sello de autoría de Lucas Luccaroni en el encabezado de `AGENTS.md`.
 - [x] Validación final de despliegue en Vercel y comprobación de URL pública activa (`https://lucasluccaroni-portfolio.vercel.app/`).
 - [x] Verificación de enlaces ancla y accesibilidad final. 
 
@@ -56,6 +59,7 @@ Asimismo, se incluye el archivo [README.md](file:///d:/repositorios/tecnicatura-
 
 ## Estado del Proyecto
 
-- **Estado:** CERRADO Y ENTREGADO.
+- **Estado:** CERRADO Y ENTREGADO (Actualizado con declaraciones de criterio de autoría).
 - **URL Pública de Producción:** [lucasluccaroni-portfolio.vercel.app](https://lucasluccaroni-portfolio.vercel.app/)
+
 
