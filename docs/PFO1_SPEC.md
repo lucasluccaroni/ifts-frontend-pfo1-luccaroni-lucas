@@ -1,9 +1,9 @@
 # PFO1 — Landing de Portafolio Personal
 ## Documento Maestro de Especificacion
 
-> **Estado:** EN PROGRESO  
-> **Ultima actualizacion:** 11/08/2026  
-> **Fase actual:** Analisis y definicion de arquitectura  
+> **Estado:** DESARROLLO FINALIZADO  
+> **Ultima actualizacion:** 18/08/2026  
+> **Fase actual:** Documentacion y cierre de entrega  
 > **Entrega:** 24/08/2026
 
 ---
@@ -27,16 +27,16 @@ Proyecto Formativo Obligatorio 1 (PFO1) de la materia Desarrollo de Sistemas Web
 
 | Fase | Herramienta | Plan | Estado |
 |---|---|---|---|
-| Analisis y documentacion | Claude Opus 4.6 (Anthropic) — esfuerzo alto | Pro $20 USD/mes | EN CURSO |
-| Diseno de mockups | Figma + plugin Scripter | [DEFINIR] | PENDIENTE |
-| Desarrollo | Google Antigravity 2.0 | [DEFINIR] | PENDIENTE |
-| Deploy | Vercel | Gratuito (Hobby) | PENDIENTE |
-| Documentacion final | Manual | — | PENDIENTE |
+| Analisis y documentacion | Claude Opus 4.6 + Sonnet 5 (Anthropic) — esfuerzo alto | Pro $20 USD/mes | FINALIZADO |
+| Diseno de mockups | Figma + plugin Scripter | Free tier | FINALIZADO |
+| Desarrollo | Google Antigravity 2.0 — Gemini 3.6 Flash (high) | $5 USD | FINALIZADO |
+| Deploy | Vercel | Gratuito (Hobby) | FINALIZADO |
+| Documentacion final | Claude / Antigravity | — | FINALIZADO |
 
 ### 1.4 Declaracion de uso de IA (borrador para README)
 
-- **Herramientas:** Claude Opus 4.6 (Anthropic) para analisis, arquitectura, documentacion y diseno de mockups; Google Antigravity 2.0 para desarrollo asistido.
-- **Plan:** Claude Pro ($20 USD/mes), configuracion de esfuerzo alto. Antigravity [DEFINIR — gratuito/pago y cual].
+- **Herramientas:** Claude Opus 4.6 + Sonnet 5 (Anthropic) para analisis, arquitectura, documentacion y diseno de mockups; Google Antigravity 2.0 (Gemini 3.6 Flash, high) para desarrollo asistido; ambas herramientas usadas tambien para documentacion final.
+- **Plan:** Claude Pro ($20 USD/mes), configuracion de esfuerzo alto. Antigravity $5 USD.
 - **Experiencia previa:** 3 anios estudiando programacion. Experiencia en HTML/CSS puro, React, JavaScript, C#, MySQL, Firebase, MongoDB. Conocimiento en constante evolucion dentro de una tecnicatura en desarrollo de software. Uso habitual de herramientas de IA generativa para desarrollo asistido y co-creacion.
 - **Que revise y adapte:** [SE COMPLETARA al finalizar el desarrollo — documentar decisiones propias, correcciones al codigo generado, y criterio aplicado].
 
@@ -383,8 +383,8 @@ pfo1-portfolio/
 - **Modulos:** ABM de productos, Comandas, Caja del dia, Cierre de caja, Historial y reportes, Calculadora de costos, Niveles de usuarios
 - **IA:** Asistente IA incorporado con RAG + Tool Use (LangGraph, Ollama, FAISS, Nomic Embed)
 - **Descripcion para la card:** Sistema de gestion integral para un bar con asistente de inteligencia artificial incorporado. ABM de productos, comandas, caja, reportes y calculadora de costos. Implementacion de asistente IA con pipeline RAG y Tool Use.
-- **Link:** [URL de SAO Bar — CONFIRMAR]
-- **Captura:** [PENDIENTE]
+- **Link:** https://sao-ciap.vercel.app/
+- **Captura:** Hecho
 - **Tratamiento visual:** Fila completa en la grilla (grid-column: span 2), captura mas grande, descripcion extendida. Badges de stack: Next.js, TypeScript, Tailwind, Supabase, RAG/IA.
 
 ### Proyecto 2 — Parben Home
@@ -392,8 +392,8 @@ pfo1-portfolio/
 - **Periodo:** Enero 2025 - Marzo 2025
 - **Stack:** React, Vite, HTML, CSS, JavaScript, Firebase (base de datos + mailing)
 - **Descripcion para la card:** Sitio web responsive para Parben Home, empresa de diseno de interiores. Frontend en React con Vite, backend en Firebase para base de datos y sistema de mailing.
-- **Link:** [URL de Parben Home — CONFIRMAR]
-- **Captura:** [PENDIENTE]
+- **Link:** https://parben-home.vercel.app/
+- **Captura:** Hecho
 - **Tratamiento visual:** Media fila en grilla (1 de 2 cards). Badges de stack: React, Vite, JavaScript, Firebase.
 
 ### Proyecto 3 — Sistema de gestion para gimnasio
@@ -401,8 +401,8 @@ pfo1-portfolio/
 - **Periodo:** Agosto 2025 - Noviembre 2025
 - **Stack:** C#, .NET Framework, MySQL
 - **Descripcion para la card:** Aplicacion de escritorio para la gestion integral de un gimnasio. ABM de socios, abonados y actividades. Desarrollado con C# .NET Framework y base de datos MySQL.
-- **Link:** [COMPLETAR si hay repo]
-- **Captura:** [PENDIENTE]
+- **Link:** No aplica (aplicacion de escritorio, sin deploy/repo publico)
+- **Captura:** Hecho
 - **Tratamiento visual:** Media fila en grilla (1 de 2 cards). Badges de stack: C#, .NET, MySQL.
 
 ---
@@ -416,12 +416,12 @@ pfo1-portfolio/
 - [x] **Headline profesional**: "Desarrollador Full Stack"
 - [x] **Parrafo de presentacion**: Confirmado con frase final "soluciones a medida"
 - [x] **Stacks tecnologicos** de cada proyecto (confirmados y enriquecidos con CV)
-- [x] **Plan de IA**: Claude Pro $20 USD/mes, Opus 4.6 esfuerzo alto. Antigravity pendiente.
+- [x] **Plan de IA**: Claude Pro $20 USD/mes, Opus 4.6 + Sonnet 5 esfuerzo alto. Antigravity Gemini 3.6 Flash (high), $5 USD.
 - [x] **Datos de contacto**: luccaroni@gmail.com, LinkedIn: lucas-jose-luccaroni
-- [ ] **Links** a deploys de SAO Bar y Parben Home (confirmar URLs exactas)
-- [ ] **Capturas de pantalla** de los 3 proyectos
-- [ ] **Foto de perfil** (la del CV o una nueva)
-- [ ] **Diseno en Figma**: Script 1 (Hero) OK, Script 2 (Habilidades) en prueba, Scripts 3-4 pendientes
+- [x] **Links** a deploys de SAO Bar (https://sao-ciap.vercel.app/) y Parben Home (https://parben-home.vercel.app/) — confirmados
+- [x] **Capturas de pantalla** de los 3 proyectos — hecho
+- [x] **Foto de perfil** — hecho
+- [x] **Diseno en Figma** — Scripts 1, 2, 3 y 4 completados
 
 ---
 
