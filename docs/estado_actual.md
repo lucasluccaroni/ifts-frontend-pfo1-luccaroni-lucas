@@ -47,7 +47,7 @@ Se ha completado la maquetación HTML5 semántica, el sistema CSS principal, la 
 ### Hito 3: Validación, Documentación y Deploy
 - [x] Creación y redacción del `README.md` completo (matriz de rúbrica, decisiones de diseño y declaración de IA).
 - [ ] Validación final de despliegue en Vercel y comprobación de URL pública activa.
-- [ ] Verificación de enlaces ancla y accesibilidad final.
+- [ ] Verificación de enlaces ancla y accesibilidad final. 
 
 ---
 
