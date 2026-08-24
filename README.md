@@ -3,7 +3,7 @@
 > **Tecnicatura Superior en Desarrollo de Software (IFTS) — 2do Cuatrimestre 2026**  
 > **Estudiante:** Lucas José Luccaroni  
 > **Repositorio GitHub:** [ifts-frontend-pfo1-luccaroni-lucas](https://github.com/lucasluccaroni/ifts-frontend-pfo1-luccaroni-lucas)  
-> **Despliegue Vercel:** [https://ifts-frontend-pfo1-luccaroni-lucas.vercel.app](https://ifts-frontend-pfo1-luccaroni-lucas.vercel.app) *(Deploy activo)*
+> **Despliegue Vercel:** [https://lucasluccaroni-portfolio.vercel.app](https://lucasluccaroni-portfolio.vercel.app) *(Deploy activo)*
 
 ---
 
